@@ -10,37 +10,19 @@ This repository contains study materials for the **Claude Certified Architect �
 
 ## Course Access
 
-- Certification is currently restricted to members of the Anthropic Partner Network and requires registration with a verified partner company email. Claude Partner Network: https://claude.com/partners
+- Certification is currently restricted to members of the Anthropic Partner Network and requires registration with a verified partner company email. Claude Partner Network: <https://claude.com/partners>
 - Free for the first 5,000 partner company employees. General availability will be $99.
-- To request access to the official course/exam portal, use this link: https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request
+- To request access to the official course/exam portal, use this link: <https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request>
 
 ## Study Guide
 
 - **English guide**: [`guide_en.md`](./guide_en.MD)
-- **Spanish guide**: [`guide_es.md`](./guide_es.md)
 - **Russian guide**: [`guide_ru.md`](./guide_ru.MD)
-- **Chinese guide**: [`guide_zh.md`](./guide_zh.md)
-- **Japanese guide**: [`guide_ja.md`](./guide_ja.md)
-- **Urdu guide**: [`guide_ur.md`](./guide_ur.md)
-- **Arabic guide**: [`guide_ar.MD`](./guide_ar.MD)
-- **Hebrew guide**: [`guide_he.md`](./guide_he.md)
-- **Korean guide**: [`guide_ko.md`](./guide_ko.md)
-- **Italian guide**: [`guide_it.md`](./guide_it.md)
-- **Traditional Chinese (Taiwan) guide**: [`guide_zh-tw.md`](./guide_zh-tw.md)
 
 ## PDF Version
 
 - **English guide**: [`guide_en.pdf`](./pdf/guide_en.pdf)
-- **Spanish guide**: [`guide_es.pdf`](./pdf/guide_es.pdf)
 - **Russian guide**: [`guide_ru.pdf`](./pdf/guide_ru.pdf)
-- **Chinese guide**: [`guide_zh.pdf`](./pdf/guide_zh.pdf)
-- **Japanese guide**: [`guide_ja.pdf`](./pdf/guide_ja.pdf)
-- **Urdu guide**: [`guide_ur.pdf`](./pdf/guide_ur.pdf)
-- **Arabic guide**: [`guide_ar.pdf`](./pdf/guide_ar.pdf)
-- **Hebrew guide**: [`guide_he.pdf`](./pdf/guide_he.pdf)
-- **Korean guide**: [`guide_ko.pdf`](./pdf/guide_ko.pdf)
-- **Italian guide**: [`guide_it.pdf`](./pdf/guide_it.pdf)
-- **Traditional Chinese (Taiwan) guide**: [`guide_zh-tw.pdf`](./pdf/guide_zh-tw.pdf)
 
 ## How to Use
 
@@ -68,8 +50,8 @@ This repository contains study materials for the **Claude Certified Architect �
 
 ## See Also
 
-- Claude Code: Commands Cheatsheet https://claude-guides.com
-- Top 80 Claude Skills, Agents & GitHub Repos for AI — The Complete Guide https://x.com/paullarionov/status/2038254131849134220
+- Claude Code: Commands Cheatsheet <https://claude-guides.com>
+- Top 80 Claude Skills, Agents & GitHub Repos for AI — The Complete Guide <https://x.com/paullarionov/status/2038254131849134220>
 
 ## How to Contribute
 
@@ -77,6 +59,42 @@ This repository contains study materials for the **Claude Certified Architect �
 
 ## Follow
 
-- LinkedIn: https://www.linkedin.com/in/paullarionov
-- X: https://x.com/paullarionov
+- LinkedIn: <https://www.linkedin.com/in/paullarionov>
+- X: <https://x.com/paullarionov>
 
+## Emoji
+
+┌────────────────┬───────────────────┬───────┬───────────────────┐
+│   Status EN    │     Status RU     │ Emoji │       Alt         │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Not started    │ Не начато         │ ⬜    │ 🔲                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Started        │ Начато            │ 🟡    │ 🔄                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ In progress    │ В процессе        │ 🔵    │ ⏳                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Blocked        │ Заблокировано     │ 🔴    │ ❌                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Review         │ На ревью          │ 🟠    │ 👀                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Done           │ Готово            │ ✅    │ 🟢                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Cancelled      │ Отменено          │ ❌    │ ~~зачёркнутый~~.  │
+|                |                   |       | ~~strikethrough~~ |
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Deferred       │ Отложено          │ ⏸️    │ 🔜                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Idea / backlog │ Идея / бэклог     │ 💡    │ 📋                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ High priority  │ Высокий приоритет │ 🔥    │ ‼️                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Low priority   │ Низкий приоритет  │ 🧊    │ ▽                 │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Bug            │ Баг               │ 🐛    │ 🚨                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Feature        │ Фича              │ ✨    │ 🆕                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Research       │ Исследование      │ 🔍    │ 📚                │
+├────────────────┼───────────────────┼───────┼───────────────────┤
+│ Question       │ Вопрос            │ ❓    │ 🤔                 │
+└────────────────┴───────────────────┴───────┴───────────────────┘

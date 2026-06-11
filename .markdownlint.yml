@@ -1,0 +1,5 @@
+default: true
+
+MD013: false # line length — not enforceable in docs with tables/code
+MD033: false # inline HTML — needed for SVG embeds
+MD060: false # table column style — spec tables use mixed compact/aligned style
