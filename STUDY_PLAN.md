@@ -5,7 +5,7 @@
 
 ---
 
-## Quick Facts
+## ✅ Quick Facts
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@
 
 ---
 
-## Domain Weights (study time allocation)
+## ✅ Domain Weights (study time allocation)
 
 | Domain | Weight | Hours to allocate |
 |---|---|---|
@@ -31,14 +31,14 @@
 
 ---
 
-## Phase 0 — Access & Setup (Day 1)
+## ✅ Phase 0 — Access & Setup (Day 1)
 
-- [ ] Submit access request at Skilljar (link above)
-- [ ] Create account at `platform.claude.com` and get an API key
-- [ ] Install Claude Code CLI: `npm install -g @anthropic-ai/claude-code`
-- [ ] Verify: `claude --version`
-- [ ] Clone or bookmark this repo — use `guide_en.MD` as primary reference
-- [ ] Open `practical_test_en.html` in a browser — this is your practice exam
+- [x] Submit access request at Skilljar (link above)
+- [x] Create account at `platform.claude.com` and get an API key
+- [x] Install Claude Code CLI: `npm install -g @anthropic-ai/claude-code`
+- [x] Verify: `claude --version`
+- [x] Clone or bookmark this repo — use `guide_en.MD` as primary reference
+- [x] Open `practical_test_en.html` in a browser — this is your practice exam
 
 ---
 
