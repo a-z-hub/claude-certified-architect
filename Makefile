@@ -1,4 +1,4 @@
-.PHONY: lint-md fmt-md lint fmt
+.PHONY: lint-md fmt-md lint fmt run-cc headroom-perf rtk-gain
 
 lint-md:
 	markdownlint --dot .

@@ -48,10 +48,10 @@ Take in this order. All are free on `anthropic.skilljar.com`.
 
 ### Priority 1 — Core exam coverage
 
-- [ ] **Introduction to Subagents** (`/introduction-to-subagents`)
+- [x] [**Introduction to Subagents**](https://anthropic.skilljar.com/introduction-to-subagents)
   - Directly covers Domain 1 (27%) — do this first
   - Topics: context passing, Task tool, coordinator patterns, parallel execution
-- [ ] **Claude Code in Action** (`/claude-code-in-action`)
+- [ ] [**Claude Code in Action**](https://anthropic.skilljar.com/claude-code-in-action)
   - Covers Domain 3 (20%)
   - Topics: CLAUDE.md, slash commands, plan mode, CI/CD integration
 - [ ] **Introduction to Agent Skills** (`/introduction-to-agent-skills`)

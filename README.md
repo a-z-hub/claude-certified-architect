@@ -98,3 +98,7 @@ This repository contains study materials for the **Claude Certified Architect �
 ├────────────────┼───────────────────┼───────┼───────────────────┤
 │ Question       │ Вопрос            │ ❓    │ 🤔                 │
 └────────────────┴───────────────────┴───────┴───────────────────┘
+
+## Links
+
+- [claude courses](https://claude.com/resources/courses)
