@@ -9,7 +9,21 @@ async function main() {
   const readPath =
     toolArgs.tool_input?.file_path || toolArgs.tool_input?.path || "";
 
-  // TODO: ensure Claude isn't trying to read the .env file
+  if (readPath.includes(".env")) {
+    console.log(
+      JSON.stringify({
+        decision: "block",
+        reason: "you cannot read .env files",
+        systemMessage: `blocked read of .env file: ${readPath}`,
+      })
+    );
+  } else {
+    console.log(
+      JSON.stringify({
+        systemMessage: `read file: ${readPath}`,
+      })
+    );
+  }
 }
 
 main();
