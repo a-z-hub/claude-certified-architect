@@ -173,7 +173,8 @@
     "defaultMode": "default"
   },
   "enabledPlugins": {
-    "github@claude-plugins-official": false
+    "github@claude-plugins-official": false,
+    "playwright@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {},
   "tui": "fullscreen",

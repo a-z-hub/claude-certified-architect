@@ -2,3 +2,5 @@
 
 graphify-out/
 .env
+
+.playwright-mcp/
