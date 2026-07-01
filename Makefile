@@ -17,4 +17,4 @@ rtk-gain:
 	rtk gain
 
 run-cc:
-	headroom wrap claude
+	headroom wrap claude $(if $(RESUME),--resume $(RESUME)) $(if $(DEBUG),--debug)
