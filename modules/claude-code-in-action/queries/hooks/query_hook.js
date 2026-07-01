@@ -36,7 +36,7 @@ async function main() {
   const newContent =
     toolInput.content || toolInput.contents || toolInput.new_string;
   const prompt = `You are reviewing a proposed change to a database query file.
-Your task is to analyze if the new or modified query functions could be 
+Your task is to analyze if the new or modified query functions could be
 accomplished by reusing or slightly modifying existing query functions.
 
 Within reason, we want to prevent duplicate queries from being added into this project,
@@ -61,6 +61,7 @@ If no, just say "Changes look appropriate."`;
   const messages = [];
   for await (const message of query({
     prompt,
+    abortController: new AbortController(),
   })) {
     messages.push(message);
   }
