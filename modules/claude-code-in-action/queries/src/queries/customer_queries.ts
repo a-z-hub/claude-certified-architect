@@ -17,7 +17,7 @@ export async function getCustomerByEmail(
   email: string
 ): Promise<any> {
   const query = `
-    SELECT 
+    SELECT
         c.*,
         sa.street AS shipping_street,
         sa.city AS shipping_city,
@@ -63,7 +63,7 @@ export async function findCustomersBySegment(
   segmentName: string
 ): Promise<any[]> {
   const query = `
-    SELECT 
+    SELECT
         c.customer_id,
         c.email,
         c.phone,
@@ -97,7 +97,7 @@ export async function getCustomerProfile(
 
   // Get all addresses
   const addressesQuery = `
-    SELECT * FROM shipping_addresses 
+    SELECT * FROM shipping_addresses
     WHERE customer_id = ?
     ORDER BY is_default DESC, address_id
   `;
@@ -147,7 +147,7 @@ export async function searchCustomersByName(
   lastName?: string
 ): Promise<any[]> {
   let query = `
-    SELECT 
+    SELECT
         c.*,
         c.status,
         CAST((julianday('now') - julianday(c.created_at)) AS INTEGER) as account_age_days,
@@ -175,7 +175,7 @@ export async function searchCustomersByName(
 
 export async function listCustomersWithReviews(db: Database): Promise<any[]> {
   const query = `
-    SELECT 
+    SELECT
         c.*,
         COUNT(r.review_id) as review_count,
         AVG(r.rating) as average_rating_given
